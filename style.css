@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+img {
+  width: 200px;
+}
+.container {
+  margin-top: 30px;
+  
+  background-color: #f0ddee;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  justify-content: center;
+  align-content: start;
+  
+  
+}
+
+.poke{
+  border: 2px solid #be7abb;
+}
+
+.squirtle{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: center;
+  align-self: flex-start;
+}
+
+.onix{
+  grid-column: 5 / 6 ;
+  grid-row: 2 / 3;
+  align-self: start;
+  justify-self: start;
+  
+}
+
+.nine{
+  justify-self: start;
+  align-self: end;
+  grid-column: 3 / 4 ;
+  grid-row: 2 / 3;
+}
+
+.lucario{
+  grid-column: 4;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.muk{
+  grid-column:2 ;
+  grid-row:3;
+  justify-self: end;
+}
